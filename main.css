@@ -1,0 +1,6 @@
+@import url("assets/css/headers.css");
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
