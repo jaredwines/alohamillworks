@@ -1,0 +1,38 @@
+@import url("headers.css");
+@import url(footers.css);
+
+@media screen and (min-width: 0px) and (max-width: 420px) {
+    .parallax-window { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 421px) and (max-width: 5600px) {
+}
+
+.main-text {
+    padding-top: 55px;
+    text-align: center;
+    alignment: center;
+}
+
+.main-text .col-md-3 .stairs {
+    background-color: gainsboro;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.phone-num a:link {
+    /*color: #51694E;*/
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.phone-num a:hover {
+    /*color: #748871;*/
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
