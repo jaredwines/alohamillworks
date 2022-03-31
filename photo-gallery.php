@@ -22,16 +22,10 @@ foreach ($files as $file) {
         }
 
         echo "<div class=\"$imageType web col-sm-6 col-md-4 col-lg-4 mb-4\">
-            <a href=#\"img$count\" class=\"item-wrap fancybox\">
+            <a href=\"assets/img/gallery/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image-$count\" data-title=\"My caption\">
               <img class=\"img-fluid\" src=\"assets/img/gallery/$file\">
             </a>
-          </div>
-          
-          <a href=\"#\" class=\"lightbox\" id=\"img$count\">
-            <span style=\"background-image: url(\"assets/img/gallery/$file\")\"></span>
-        </a>
-          
-          ";
+          </div>";
         $count++;
     }
 }
