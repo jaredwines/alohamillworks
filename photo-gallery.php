@@ -22,7 +22,7 @@ foreach ($files as $file) {
         }
 
         echo "<div class=\"$imageType web col-sm-6 col-md-4 col-lg-4 mb-4\">
-            <a href=\"assets/img/gallery/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image-$count\" data-title=\"My caption\">
+            <a href=\"assets/img/gallery/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image-$count\" data-title=\"\">
               <img class=\"img-fluid\" src=\"assets/img/gallery/$file\">
             </a>
           </div>";

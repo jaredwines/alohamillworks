@@ -41,10 +41,10 @@
                 <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
                     <div id="filters" class="filters">
                         <a href="#" data-filter="*" class="active">All</a>
-                        <a href="#" data-filter=".web">Web</a>
-                        <a href="#" data-filter=".design">Design</a>
-                        <a href="#" data-filter=".branding">Branding</a>
-                        <a href="#" data-filter=".photography">Photography</a>
+                        <a href="#" data-filter=".stairs">Stairs</a>
+                        <a href="#" data-filter=".rails">Rails</a>
+                        <a href="#" data-filter=".gates">Gate</a>
+                        <a href="#" data-filter=".custom">Photography</a>
                     </div>
                 </div>
             </div>
