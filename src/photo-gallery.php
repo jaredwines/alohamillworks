@@ -16,7 +16,7 @@ function photoGalleryImport($srcPath)
                     <a href=\"$srcPath/$folder/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image\" data-title=\"$imageName $count\">
                         <div class=\"portfolio-box\">
                             <div class=\"portfolio-box-img\">
-                                    <img src=\"$srcPath/$folder/$file\" class=\"img-fluid\" alt=\"member-image\">
+                                    <img src=\"$srcPath/$folder/thumb.$file\" class=\"img-fluid\" alt=\"member-image\">
                             </div>
                             <div class=\"portfolio-box-detail\">
                                 <p>$imageName $count</p>
