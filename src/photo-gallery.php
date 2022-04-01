@@ -39,6 +39,10 @@ function photoGalleryFilter($srcPath)
     foreach ($folders as $folder) {
         if (is_dir("$srcPath/$folder") && $folder !== "." && $folder !== "..") {
             $folderName = ucfirst($folder);
+            if (str_contains($folderName, "-")) {
+                $folderName = str_replace("-", " ", $folderName);
+            }
+
             echo("<a href=\"#\" data-filter=\".$folder\" class=\"current waves-effect waves-success\">$folderName</a>");
         }
     }

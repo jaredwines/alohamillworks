@@ -1,13 +1,13 @@
 version: "3.9"
 
 services:
-    php:
-        container_name: alohamillworks-site
-        image: php
-        restart: always
-        build:
-            context: .
-            dockerfile: Dockerfile
-            target: base
-        ports:
-            - "${PORT}:80"
+  php:
+    container_name: alohamillworks-site
+    image: php
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    ports:
+      - "${PORT}:80"
