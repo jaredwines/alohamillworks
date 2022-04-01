@@ -66,7 +66,9 @@
                 <div class="page-title text-center">
                     <div class="row justify-content-center">
                         <div class="col-lg-9">
-                            <h2><span>Let's</span> keep in touch.</h2>
+                            <h2>Rails Portfolio</span></h2>
+
+                            <p class="text-muted">Specialize in high-end wood and metal rails.</p>
                         </div>
                     </div>
                 </div>
@@ -76,25 +78,31 @@
 </section>
 
 
-<section class="margin-t-30">
+<section class="section">
     <div class="container">
 
-        <div class="row margin-t-50">
-            <div class="col-lg-4 address-box">
-                <div>
-                    <h5>Email Address</h5>
-                    <p class="text-muted">
-                        <a href="mailto:contact@alohamillworks.com<">contact@alohamillworks.com<</a>
-                    </p>
-                </div>
-                <div class="margin-t-30">
-                    <h5>Telephone</h5>
-                    <p class="text-muted"><a href="tel:7608054929">(760) 805-4929</a></p>
+        <!-- SECTION FILTER
+            ================================================== -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portfolio-filter text-center">
+                    <a href="#" data-filter="*" class="current waves-effect waves-success">All</a>
+                    <a href="#" data-filter=".wood" class="waves-effect waves-success">Wood</a>
+                    <a href="#" data-filter=".metal" class="waves-effect waves-success">Metal</a>
                 </div>
             </div>
         </div>
+
+        <div class="port portfolio-masonry m-b-30">
+            <div class="portfolioContainer row">
+
+                <?php
+                include("photo-gallery.php");
+                ?>
+
     </div> <!-- end container -->
 </section>
+
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -129,4 +137,5 @@
 <script src="js/hamburger.js"></script>
 
 </body>
+
 </html>
