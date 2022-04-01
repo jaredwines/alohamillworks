@@ -100,7 +100,7 @@
                 include("photo-gallery.php");
                 ?>
 
-    </div> <!-- end container -->
+            </div> <!-- end container -->
 </section>
 
 
