@@ -4,8 +4,7 @@ $imageType = "";
 $imageName = "";
 $count = 1;
 foreach ($files as $file) {
-    if ($file !== "." && $file !== "..") {
-        // Give Image source -- src='folder-name/$file'
+    if ($file !== "." && $file !== ".." &&  $file !== ".DS_Store") {
         if (str_contains($file, "wood")) {
             $imageType = "wood";
             $imageName = "Wood";
@@ -24,13 +23,13 @@ foreach ($files as $file) {
         }
 
         echo "<div class=\"col-lg-4 design $imageType\">
-                    <a href=\"asset/img/gallery/stairs/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image-$count\" data-title=\"test\">
+                    <a href=\"asset/img/gallery/stairs/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image-$count\" data-title=\"$imageName $count\">
                         <div class=\"portfolio-box\">
                             <div class=\"portfolio-box-img\">
                                     <img src=\"asset/img/gallery/stairs/$file\" class=\"img-fluid\" alt=\"member-image\">
                             </div>
                             <div class=\"portfolio-box-detail\">
-                                <p>$imageName</p>
+                                <p>$imageName $count</p>
                                 <h4>Aloha Millworks</h4>
                             </div>
                         </div>

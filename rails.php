@@ -131,6 +131,7 @@
 <!-- END FOOTER -->
 
 <!-- JAVASCRIPTS -->
+<script src="asset/js/lightbox-plus-jquery.js"></script>
 <script src="asset/js/jquery-2.1.4.min.js"></script>
 <script src="asset/js/bootstrap.min.js"></script>
 <!-- isotope filter plugin -->
@@ -138,7 +139,6 @@
 <script src="asset/js/portfolio-filter.js"></script>
 <script src="asset/js/app.js"></script>
 <script src="asset/js/hamburger.js"></script>
-<script src="asset/js/lightbox-plus-jquery.js"></script>
 
 
 </body>
