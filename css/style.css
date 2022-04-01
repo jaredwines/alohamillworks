@@ -983,3 +983,11 @@ blockquote {
         margin-top: 40px;
     }
 }
+
+.service-link .col-lg-4 .service-box a, .service-link .col-lg-4 .service-box .service-icon a{
+    color: black;
+}
+
+.service-link .col-lg-4 .service-box a:hover, .service-link .col-lg-4 .service-box .service-icon a:hover{
+    color: #0a58ca;
+}
