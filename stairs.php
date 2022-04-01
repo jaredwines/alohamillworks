@@ -9,19 +9,20 @@
     <meta name="keywords" content="metal wood stairs rails gates fences custom"/>
     <meta name="author" content="Jared Wines"/>
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="asset/img/favicon.ico">
 
     <!-- Bootstrap Css-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css"/>
 
     <!-- Materialdesign icon Css-->
-    <link rel="stylesheet" type="text/css" href="css/icofont.min.css"/>
+    <link rel="stylesheet" type="text/css" href="asset/css/icofont.min.css"/>
     <!-- Pe 7 icon Css-->
-    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css"/>
+    <link rel="stylesheet" type="text/css" href="asset/css/pe-icon-7-stroke.css"/>
 
     <!-- Custom Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css"/>
+    <link href="asset/css/hamburgers.css" rel="stylesheet">
+    <link href="asset/css/lightbox.css" rel="stylesheet">
 
 </head>
 
@@ -48,8 +49,8 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="stairs.php">Stairs</a></li>
                 <li class="nav-item"><a class="nav-link" href="rails.php">Rails</a></li>
-                <li class="nav-item"><a class="nav-link" href="gates.html">Gates</a></li>
-                <li class="nav-item"><a class="nav-link" href="custom.html">Custom</a></li>
+                <li class="nav-item"><a class="nav-link" href="gates.php">Gates</a></li>
+                <li class="nav-item"><a class="nav-link" href="custom.php">Custom</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -68,7 +69,7 @@
                         <div class="col-lg-9">
                             <h2>Stairs Portfolio</span></h2>
 
-                            <p class="text-muted">Specialize in high-end wood and metal spiral staircases.</p>
+                            <p class="text-muted">Specialize in high-end wood, metal, glass and wire staircases.</p>
                         </div>
                     </div>
                 </div>
@@ -89,6 +90,8 @@
                     <a href="#" data-filter="*" class="current waves-effect waves-success">All</a>
                     <a href="#" data-filter=".wood" class="waves-effect waves-success">Wood</a>
                     <a href="#" data-filter=".metal" class="waves-effect waves-success">Metal</a>
+                    <a href="#" data-filter=".glass" class="waves-effect waves-success">Glass</a>
+                    <a href="#" data-filter=".wire" class="waves-effect waves-success">Wire</a>
                 </div>
             </div>
         </div>
@@ -128,13 +131,14 @@
 <!-- END FOOTER -->
 
 <!-- JAVASCRIPTS -->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="asset/js/jquery-2.1.4.min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
 <!-- isotope filter plugin -->
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/portfolio-filter.js"></script>
-<script src="js/app.js"></script>
-<script src="js/hamburger.js"></script>
+<script src="asset/js/isotope.pkgd.min.js"></script>
+<script src="asset/js/portfolio-filter.js"></script>
+<script src="asset/js/app.js"></script>
+<script src="asset/js/hamburger.js"></script>
+<script src="asset/js/lightbox-plus-jquery.js"></script>
 
 </body>
 
