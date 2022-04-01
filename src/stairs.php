@@ -102,7 +102,7 @@
             <div class="portfolioContainer row">
 
                 <?php
-                include("photo-gallery.php");
+                include("stair-gallery.php");
                 ?>
 
             </div> <!-- end container -->
