@@ -88,11 +88,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-filter text-center">
-                    <a href="#" data-filter="*" class="current waves-effect waves-success">All</a>
-                    <a href="#" data-filter=".playhouse" class="waves-effect waves-success">Playhouse</a>
-                    <a href="#" data-filter=".livingwall" class="waves-effect waves-success">Living Wall</a>
-                    <a href="#" data-filter=".fountain" class="waves-effect waves-success">Fountain</a>
-                    <a href="#" data-filter=".other" class="waves-effect waves-success">Other</a>
+                    <?php
+                    include("photo-gallery.php");
+                    photoGalleryFilter("asset/img/gallery/custom");
+                    ?>
                 </div>
             </div>
         </div>
@@ -101,7 +100,7 @@
             <div class="portfolioContainer row">
 
                 <?php
-                include("photo-gallery.php");
+                photoGalleryImport("asset/img/gallery/custom");
                 ?>
 
             </div>

@@ -89,22 +89,19 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-filter text-center">
-                    <a href="#" data-filter="*" class="current waves-effect waves-success">All</a>
-                    <a href="#" data-filter=".wood" class="waves-effect waves-success">Wood</a>
-                    <a href="#" data-filter=".metal" class="waves-effect waves-success">Metal</a>
-                    <a href="#" data-filter=".glass" class="waves-effect waves-success">Glass</a>
-                    <a href="#" data-filter=".wire" class="waves-effect waves-success">Wire</a>
+                    <?php
+                    include("photo-gallery.php");
+                    photoGalleryFilter("asset/img/gallery/stairs");
+                    ?>
                 </div>
             </div>
         </div>
 
         <div class="port portfolio-masonry m-b-30">
             <div class="portfolioContainer row">
-
                 <?php
-                include("stair-gallery.php");
+                photoGalleryImport("asset/img/gallery/stairs");
                 ?>
-
             </div> <!-- end container -->
 </section>
 
