@@ -7,17 +7,13 @@ foreach ($files as $file) {
         // Give Image source -- src='folder-name/$file'
         if (str_contains($file, "stairs")) {
             $imageType = "stairs";
-        }
-        elseif (str_contains($file, "rails")) {
+        } elseif (str_contains($file, "rails")) {
             $imageType = "rails";
-        }
-        elseif (str_contains($file, "gates")) {
+        } elseif (str_contains($file, "gates")) {
             $imageType = "gates";
-        }
-        elseif (str_contains($file, "custom")) {
+        } elseif (str_contains($file, "custom")) {
             $imageType = "custom";
-        }
-        else{
+        } else {
             $imageType = "item";
         }
 

@@ -90,8 +90,8 @@
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
-        'alwaysShowNavOnTouchDevices' : true,
-        'albumLabel' : "Image %1 of %2"
+        'alwaysShowNavOnTouchDevices': true,
+        'albumLabel': "Image %1 of %2"
     })
 </script>
 
