@@ -5,7 +5,13 @@ function photoGalleryImport($srcPath)
     foreach ($folders as $folder) {
         if (is_dir("$srcPath/$folder")) {
             $imageType = $folder;
-            $imageName = ucfirst($folder);
+            $imageName = "";
+            if (str_contains($folder, "-")) {
+                $imageName  = str_replace("-", " ", $folder);
+            }
+            else{
+                $imageName = ucfirst($folder);
+            }
             $count = 1;
             $files = scandir("$srcPath/$folder");
             foreach ($files as $file) {
