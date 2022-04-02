@@ -6,7 +6,7 @@ import sys
 
 
 def thumbnail(pathToFiles, size):
-    files = glob.glob(pathToFiles + '/**/*.jpg', recursive=True)
+    files = glob.glob(pathToFiles + '/**/*, recursive=True)
     command = "find " + pathToFiles + " -type f -name '*.thumb.*' -delete"
     os.system(command)
 
