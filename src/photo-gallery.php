@@ -9,14 +9,14 @@ function photoGalleryImport($srcPath)
             $count = 1;
             $files = scandir("$srcPath/$folder");
             foreach ($files as $file) {
-                if ($file !== "." && $file !== ".." && $file !== ".DS_Store" && !is_dir("$srcPath/$folder/$file")) {
+                if ($file !== "." && !str_contains($file, ".thumb.jpg") && $file !== ".." && $file !== ".DS_Store" && !is_dir("$srcPath/$folder/$file")) {
 
 
                     echo "<div class=\"col-lg-4 design $imageType\">
                     <a href=\"$srcPath/$folder/$file\" class=\"item-wrap fancybox\" data-lightbox=\"image\" data-title=\"$imageName $count\">
                         <div class=\"portfolio-box\">
                             <div class=\"portfolio-box-img\">
-                                    <img src=\"$srcPath/$folder/thumb.$file\" class=\"img-fluid\" alt=\"member-image\">
+                                    <img src=\"$srcPath/$folder/$file.thumb.jpg\" class=\"img-fluid\" alt=\"member-image\">
                             </div>
                             <div class=\"portfolio-box-detail\">
                                 <p>$imageName $count</p>
