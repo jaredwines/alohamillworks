@@ -13,7 +13,7 @@ def thumbnail(pathToFiles, size):
     files = glob.glob(pathToFiles + '/**/*.jpg', recursive=True)
 
     for file in files:
-        command = "magick " + file + " -resize " + size + "x" + size + "^ " + file + ".thumb.jpg"
+        command = "convert " + file + " -resize " + size + "x" + size + "^ " + file + ".thumb.jpg"
         os.system(command)
 
 
