@@ -6,15 +6,16 @@ import sys
 
 
 def thumbnail(pathToFiles, size):
-    files = glob.glob(pathToFiles + '/**/*', recursive=True)
-    command = "find " + pathToFiles + " -type f -name '*.thumb.*' -delete"
+    files = glob.glob(pathToFiles + '/**/*.jpg', recursive=True)
+    command = "find " + pathToFiles + " -type f -name '*.thumb.jpg' -delete"
     os.system(command)
 
-    files = glob.glob(pathToFiles + '/**/*', recursive=True)
+    files = glob.glob(pathToFiles + '/**/*.jpg', recursive=True)
 
     for file in files:
-        command = "convert " + file + " -resize " + size + "x" + size + "^ " + file + ".thumb.jpg"
-        os.system(command)
+        if os.path.isfile(file):
+            command = "magick " + file + " -resize " + size + "x" + size + "^ " + file + ".thumb.jpg"
+            os.system(command)
 
 
 # Press the green button in the gutter to run the script.
