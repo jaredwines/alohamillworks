@@ -25,8 +25,8 @@ function photoGalleryImport($srcPath)
                                     <img src=\"$srcPath/$folder/$file.thumb.jpg\" class=\"img-fluid\" alt=\"member-image\">
                             </div>
                             <div class=\"portfolio-box-detail\">
-                                <p>$imageName $count</p>
-                                <h4>Aloha Millworks</h4>
+                                <p></p>
+                                <h4></h4>
                             </div>
                         </div>
                     </a>

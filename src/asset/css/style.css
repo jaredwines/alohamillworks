@@ -365,7 +365,7 @@ button:focus {
 
 .portfolio-box .portfolio-box-detail {
     opacity: 0;
-    color: #1a1b1d;
+    color: #027BFF;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -386,7 +386,7 @@ button:focus {
 
 .portfolio-box .portfolio-box-detail p {
     margin-bottom: 0;
-    color: #565f75;
+    color: #027BFF;
     font-size: 13px;
     font-weight: 500;
 }
@@ -400,7 +400,6 @@ button:focus {
 }
 
 .portfolio-box:hover .portfolio-box-img:after {
-    background: rgba(255, 255, 255, 0.8);
 }
 
 .portfolio-box:hover .portfolio-box-img > img {
