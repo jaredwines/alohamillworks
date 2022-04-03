@@ -3,9 +3,9 @@ function photoGalleryImport($srcPath)
 {
     $folders = scandir($srcPath);
     foreach ($folders as $folder) {
-        if (is_dir("$srcPath/$folder")) {
+        if (is_dir("$srcPath/$folder") && $folder !== "." && $folder !== "..") {
             $imageType = $folder;
-            $imageName = "";
+
             if (str_contains($folder, "-")) {
                 $imageName  = str_replace("-", " ", $folder);
             }
