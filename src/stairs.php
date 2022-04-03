@@ -32,7 +32,7 @@
 <nav class="navbar navbar-expand-lg navbar-default navbar-custom navbar-light">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="asset/img/logo.jpg"/>
+            <img src="asset/img/logo.png"/>
         </a>
         <div class="navbar-header">
             <button class="navbar-toggler hamburger hamburger--slider" type="button" data-toggle="collapse"
