@@ -991,3 +991,7 @@ blockquote {
 .service-link .col-lg-4 .service-box a:hover, .service-link .col-lg-4 .service-box .service-icon a:hover {
     color: #0a58ca;
 }
+
+.nav-collapse-alignment{
+    text-align: right;
+}
