@@ -32,7 +32,8 @@
 <nav class="navbar navbar-expand-lg navbar-default navbar-custom navbar-light">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="asset/img/logo.png"/>
+            <!--            <img src="asset/img/logo.png"/>-->
+            <h3>Aloha Millworks</h3>
         </a>
         <div class="navbar-header">
             <button class="navbar-toggler hamburger hamburger--slider" type="button" data-toggle="collapse"
